@@ -21,11 +21,11 @@ void loop()
   for (positiion = 1; positiion <= 179; positiion += 1) {
     servo.write(positiion);
     servo_1.write(179-positiion);
-    delay(15); // Wait for 20000 millisecond(s)
+    delay(15); 
   }
   for (positiion = 179; positiion >= 1; positiion -= 1) {
    servo.write(positiion);
     servo_1.write(179-positiion);
-    delay(15); // Wait for 20000 millisecond(s)
+    delay(15); 
   }
 }
